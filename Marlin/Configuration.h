@@ -395,9 +395,9 @@
   //#define DEFAULT_Kd 440
 
   // Anycubic i3 mega
-  #define DEFAULT_Kp 14.52
-  #define DEFAULT_Ki 0.85
-  #define DEFAULT_Kd 61.85
+  #define DEFAULT_Kp 15.00
+  #define DEFAULT_Ki 0.89
+  #define DEFAULT_Kd 63.25
 
 #endif // PIDTEMP
 
@@ -618,7 +618,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 94.88 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 95 }
 
 /**
  * Default Max Feed Rate (mm/s)
